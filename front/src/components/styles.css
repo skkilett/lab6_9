@@ -1,0 +1,17 @@
+.show-list-title {
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+  
+  .add-show-link {
+    display: inline-block;
+    background-color: blue;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    margin-bottom: 16px;
+  }
+  
+  .show-container {
+    margin-bottom: 16px;
+  }
