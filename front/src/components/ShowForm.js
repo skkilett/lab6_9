@@ -54,13 +54,19 @@ function ShowForm() {
         </div>
         <div className="form-group">
           <label>Genre:</label>
-          <input
+          <select
             className="form-control"
             name="genre"
             value={show.genre}
             onChange={handleChange}
             required
-          />
+          >
+            <option value="">-- Select a genre --</option>
+            <option value="news">News</option>
+            <option value="movie">Movie</option>
+            <option value="sport">Sport</option>
+            {/* add other genres if necessary */}
+          </select>
         </div>
         <div className="form-group">
           <label>Time:</label>
@@ -80,5 +86,4 @@ function ShowForm() {
     </div>
   );
 }
-
 export default ShowForm;
